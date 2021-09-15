@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Apple Chancery";
+  src: url("//db.onlinewebfonts.com/t/ab2def945a44a55728a6ab033652fcdc.eot");
+  src: url("//db.onlinewebfonts.com/t/ab2def945a44a55728a6ab033652fcdc.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ab2def945a44a55728a6ab033652fcdc.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ab2def945a44a55728a6ab033652fcdc.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ab2def945a44a55728a6ab033652fcdc.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ab2def945a44a55728a6ab033652fcdc.svg#Apple Chancery")
+      format("svg");
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+h2 {
+  color: azure;
+  font-family: "Apple Chancery";
+  font-size: 4em;
+}
+img {
+  margin: 2%;
+  width: 20%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(146, 146, 146, 0.19);
+}
+.recipeTags {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+}
+.recipeTags h3 {
+  margin: 2%;
+  padding: 2%;
+  font-size: 2em;
+  width: 20%;
+  color: white;
+}
+
+.ingredients {
+  background-color: aliceblue;
+  width: 35%;
+  text-align: left;
+  padding: 2%;
+  margin: 1%;
+}
+.measure {
+  font-weight: bold;
+}
+.recipe {
+  /* box model */
+
+  margin: 2% 2% 2% 20%;
+  padding: 1%;
+  width: 60%;
+  background-color: aliceblue;
+  /* flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions {
+  /* box model */
+  margin: 1%;
+  padding: 1%;
+  width: 70%;
+
+  line-height: 2em;
+}
+.instructions a:hover {
+  color: blue;
+}
+
+.info {
+  /* box model */
+  margin: 1%;
+  padding: 1%;
+}

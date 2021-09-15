@@ -1,13 +1,44 @@
+@font-face {
+  font-family: "Clicker Script";
+  src: url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.eot");
+  src: url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.svg#Clicker Script")
+      format("svg");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "serif", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #845ec2,
+    #806ecc,
+    #7e7cd4,
+    #7d8adb,
+    #7f97e1,
+    #818bcc,
+    #7f80b7,
+    #7b75a3,
+    #665473,
+    #4a3748,
+    #291e24,
+    #000000
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

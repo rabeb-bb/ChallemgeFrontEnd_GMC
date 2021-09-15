@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(52, 73, 94);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App a {
+  text-decoration: none;
+  color: inherit;
+}
+@font-face {
+  font-family: "Clicker Script";
+  src: url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.eot");
+  src: url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/b5cae760e3ebeb67aed58508b5ae4269.svg#Clicker Script")
+      format("svg");
+}
+@font-face {
+  font-family: "Shit Happens";
+  src: url("//db.onlinewebfonts.com/t/07e9ed603b4fc865973d0134c8b4ea7e.eot");
+  src: url("//db.onlinewebfonts.com/t/07e9ed603b4fc865973d0134c8b4ea7e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/07e9ed603b4fc865973d0134c8b4ea7e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/07e9ed603b4fc865973d0134c8b4ea7e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/07e9ed603b4fc865973d0134c8b4ea7e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/07e9ed603b4fc865973d0134c8b4ea7e.svg#Shit Happens")
+      format("svg");
+}
+.App h3 {
+  font-family: "Clicker Script", serif;
+}
+.App h1 {
+  font-family: "Shit Happens", "Clicker Script", serif;
+}
+.App h6 {
+  font-family: serif;
+}
+.App h6:hover {
+  text-shadow: 2px 2px 4px #000000;
 }
